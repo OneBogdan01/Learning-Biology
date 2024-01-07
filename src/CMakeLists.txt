@@ -10,11 +10,16 @@ endif()
 
 set( INC_FILES
 	Cell.hpp
-
+    Protein.hpp
+    DNA.hpp
+    Genes.hpp
 )
 
 set( SRC_FILES 
     Cell.cpp
+    Protein.cpp
+    DNA.cpp
+    Genes.cpp
 )
 set (ALL_FILES ${INC_FILES} ${SRC_FILES})
 

@@ -1,4 +1,8 @@
 #pragma once
+//specializes based on the unique composition of proteins
+//works together with other specialized cells in order to accomplish a function
+//all cells of an organism have the same DNA, different proteins
+//cell -> tissue -> organ -> organ system -> organism
 struct Cell
 {
 	int x;
